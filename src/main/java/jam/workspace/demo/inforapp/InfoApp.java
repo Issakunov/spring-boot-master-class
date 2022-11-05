@@ -6,7 +6,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ConfigurationProperties(prefix = "info.app")
 public class InfoApp {
-
     private String name;
     private String description;
     private String version;
